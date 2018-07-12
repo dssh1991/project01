@@ -1,0 +1,28 @@
+a {
+  text-decoration: none;
+  color: gray;
+}
+
+a:hover,
+a:active {
+  color: #00A0D1;
+}
+
+.navigation-items {
+  list-style: none;
+  padding: 20px;
+  margin: 0;
+}
+
+.mat-toolbar{
+  min-height:80px;
+  max-height:80px
+}
+
+img {
+  margin: 5px;
+  width: 100%;
+}
+.logo {
+  max-width: 200px;
+}

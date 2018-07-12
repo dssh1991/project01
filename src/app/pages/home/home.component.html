@@ -1,0 +1,44 @@
+<div class="container" fxLayout="row" fxLayout.xs="column" fxLayoutWrap fxLayoutGap="1%" fxLayoutAlign="center">
+  <div fxFlex="20%">
+    <mat-card>
+      <mat-card-title>
+        Temp 1
+      </mat-card-title>
+      <mat-card-content>
+        {{temp1 | number:'1.0-2'}} °C
+      </mat-card-content>
+    </mat-card>
+  </div>
+  <div fxFlex="20%">
+    <mat-card>
+      <mat-card-title>
+        Hum 1
+      </mat-card-title>
+      <mat-card-content>
+        {{hum1 | number:'1.0-2'}} %
+      </mat-card-content>
+    </mat-card>
+  </div>
+  <div fxFlex="20%">
+    <mat-card>
+      <mat-card-title>
+        Temp 2
+      </mat-card-title>
+      <mat-card-content>
+        {{temp2 | number:'1.0-2'}} °C
+      </mat-card-content>
+    </mat-card>
+  </div>
+  <div fxFlex="20%">
+    <mat-card>
+      <mat-card-title>
+        Hum 2
+      </mat-card-title>
+      <mat-card-content>
+        {{hum2 | number:'1.0-2'}} %
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>
+
+<app-chart></app-chart>

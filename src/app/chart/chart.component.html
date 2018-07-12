@@ -1,0 +1,13 @@
+<div class="container">
+    <div class="row" fxLayoutAlign="center">
+        <mat-button-toggle-group name="fontStyle" aria-label="Font Style">
+            <mat-button-toggle>Semana</mat-button-toggle>
+            <mat-button-toggle>Mes</mat-button-toggle>
+            <mat-button-toggle>Año</mat-button-toggle>
+        </mat-button-toggle-group>
+    </div>
+    <div class="row">
+        <!--<canvas id="BarChart" width="400" height="400" class="chartjs-render-monitor"></canvas>-->
+        <div echarts [options]="option" class="demo-chart"></div>
+    </div>
+</div>
